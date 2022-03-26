@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name "21mtc-cache")(type "Legacy")(uri "/Users/dirkjan/Projects/Own/decint/21mtc/21mtc-cache.lib")(options "")(descr ""))
+  (lib (name "pyth")(type "KiCad")(uri "/Users/dirkjan/Projects/Own/Kicad_Library/pyth.kicad_sym")(options "")(descr ""))
 )
