@@ -276,8 +276,8 @@
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" locked (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp 08fdf970-eb71-4def-b37e-319c0a70cd02)
-    (at 220.472 115.922)
+    (tedit 6395DCE4) (tstamp 08fdf970-eb71-4def-b37e-319c0a70cd02)
+    (at 220.472 115.624)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -295,7 +295,7 @@
     )
     (fp_circle (center 0 0) (end 2.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp ab40a9d1-b39c-4b98-9867-24c68d3318dd))
     (fp_circle (center 0 0) (end 2.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp a83e16ee-18df-4288-a456-7ea0e12f7054))
-    (pad "" np_thru_hole circle locked (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp e42a41b2-396d-4f02-8c5f-05a8dce2e3c6))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 2.35 2.35) (drill 2.35) (layers F&B.Cu *.Mask) (tstamp e42a41b2-396d-4f02-8c5f-05a8dce2e3c6))
   )
 
   (footprint "Pyth:MHT151CYCT" (layer "F.Cu")
@@ -1586,8 +1586,8 @@
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" locked (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp 5474e6c4-1789-413d-961a-df6e53e8a5cc)
-    (at 79.192 138.176)
+    (tedit 6395DC4E) (tstamp 5474e6c4-1789-413d-961a-df6e53e8a5cc)
+    (at 79.192 138.474)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -1605,7 +1605,7 @@
     )
     (fp_circle (center 0 0) (end 2.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 6eba0eb7-a2e2-4201-b6f9-12f23b664d6d))
     (fp_circle (center 0 0) (end 2.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp d248b3be-f74c-4a33-aa84-a68f86b6dd17))
-    (pad "" np_thru_hole circle locked (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp fbfc890d-3e1b-4e2c-a591-c4f5a1a52bcc))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 2.35 2.35) (drill 2.35) (layers F&B.Cu *.Mask) (tstamp fbfc890d-3e1b-4e2c-a591-c4f5a1a52bcc))
   )
 
   (footprint "Pyth:MHT151CYCT" (layer "F.Cu")
@@ -2226,8 +2226,8 @@
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" locked (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp 6d8167db-085e-495b-b959-0065abe3ec3d)
-    (at 142.062 138.176)
+    (tedit 6395DC94) (tstamp 6d8167db-085e-495b-b959-0065abe3ec3d)
+    (at 142.062 138.474)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -2245,7 +2245,7 @@
     )
     (fp_circle (center 0 0) (end 2.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 7f21895e-3d0d-4897-ade0-690f0df9bb20))
     (fp_circle (center 0 0) (end 2.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp bb7ef93c-631a-42db-ba16-15c422fb7ec7))
-    (pad "" np_thru_hole circle locked (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp 31da174f-a56c-4b9e-8c3b-a8213539f711))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 2.35 2.35) (drill 2.35) (layers F&B.Cu *.Mask) (tstamp 31da174f-a56c-4b9e-8c3b-a8213539f711))
     (pad "" np_thru_hole circle locked (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp 8968d5e3-167f-413c-9c20-68789b2d3d5a))
   )
 
@@ -2850,8 +2850,8 @@
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" locked (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp a443e134-0702-40d2-809a-820c3860a078)
-    (at 142.062 115.922)
+    (tedit 6395DCA3) (tstamp a443e134-0702-40d2-809a-820c3860a078)
+    (at 142.062 115.624)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -2869,7 +2869,7 @@
     )
     (fp_circle (center 0 0) (end 2.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp fe2ac0c2-8ff9-40b8-805c-9d469e63d2a5))
     (fp_circle (center 0 0) (end 2.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp c63ad4b1-3434-4817-93ad-d12ee4bb1af9))
-    (pad "" np_thru_hole circle locked (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp 542b7669-e996-4107-b9de-31591867d2a3))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 2.35 2.35) (drill 2.35) (layers F&B.Cu *.Mask) (tstamp 542b7669-e996-4107-b9de-31591867d2a3))
     (pad "" np_thru_hole circle locked (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp 710590dc-e51a-42c2-99b8-86bc3ce2dea9))
   )
 
@@ -3478,8 +3478,8 @@
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" locked (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp ba288abd-158a-481c-af90-a116d1359902)
-    (at 79.192 115.922)
+    (tedit 6395DC75) (tstamp ba288abd-158a-481c-af90-a116d1359902)
+    (at 79.192 115.624)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -3497,7 +3497,7 @@
     )
     (fp_circle (center 0 0) (end 2.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp ae865c91-5718-475a-9f1e-634f95d14bc4))
     (fp_circle (center 0 0) (end 2.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 0bdf9337-3451-4f80-aaf1-6b0968555a4e))
-    (pad "" np_thru_hole circle locked (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp 0af1c78f-79ae-43e6-af98-7e6c3e348617))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 2.35 2.35) (drill 2.35) (layers F&B.Cu *.Mask) (tstamp 0af1c78f-79ae-43e6-af98-7e6c3e348617))
   )
 
   (footprint "Pyth:MHT151CYCT_dual_side" (layer "F.Cu")
@@ -4626,8 +4626,8 @@
   )
 
   (footprint "MountingHole:MountingHole_2.2mm_M2" locked (layer "F.Cu")
-    (tedit 56D1B4CB) (tstamp ede7ead5-f78f-4910-a1d2-feb89394d785)
-    (at 220.472 137.922)
+    (tedit 6395DCCD) (tstamp ede7ead5-f78f-4910-a1d2-feb89394d785)
+    (at 220.472 138.474)
     (descr "Mounting Hole 2.2mm, no annular, M2")
     (tags "mounting hole 2.2mm no annular m2")
     (attr exclude_from_pos_files exclude_from_bom)
@@ -4645,7 +4645,7 @@
     )
     (fp_circle (center 0 0) (end 2.2 0) (layer "Cmts.User") (width 0.15) (fill none) (tstamp 680aac74-6a36-4423-a0aa-b7a684e36c21))
     (fp_circle (center 0 0) (end 2.45 0) (layer "F.CrtYd") (width 0.05) (fill none) (tstamp 05daa335-54bd-4d79-af6c-b601f9f5818b))
-    (pad "" np_thru_hole circle locked (at 0 0) (size 2.2 2.2) (drill 2.2) (layers *.Cu *.Mask) (tstamp 854c819e-7997-4e49-ae86-0ef6d066b543))
+    (pad "" np_thru_hole circle locked (at 0 0) (size 2.35 2.35) (drill 2.35) (layers F&B.Cu *.Mask) (tstamp 854c819e-7997-4e49-ae86-0ef6d066b543))
   )
 
   (footprint "Pyth:MHT151CYCT" (layer "F.Cu")
