@@ -33,9 +33,9 @@
         "other_text_thickness": 0.15,
         "other_text_upright": false,
         "pads": {
-          "drill": 2.1,
-          "height": 2.3,
-          "width": 2.3
+          "drill": 1.0,
+          "height": 3.22,
+          "width": 5.33
         },
         "silk_line_width": 0.15,
         "silk_text_italic": false,
@@ -456,10 +456,6 @@
     [
       "e63e39d7-6ac0-4ffd-8aa3-1841a4541b55",
       ""
-    ],
-    [
-      "0bedad37-3e3c-4266-b4c1-07c7e3d0463e",
-      "PowerPack"
     ]
   ],
   "text_variables": {}
