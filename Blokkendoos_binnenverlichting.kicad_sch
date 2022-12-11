@@ -5,165 +5,6 @@
   (paper "A4")
 
   (lib_symbols
-    (symbol "21mtc-cache:21mtc-rescue_FDC6303N-mosfet_smd" (pin_names (offset 0)) (in_bom yes) (on_board yes)
-      (property "Reference" "Q" (id 0) (at 5.08 1.905 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Value" "21mtc-rescue_FDC6303N-mosfet_smd" (id 1) (at 5.08 0 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "Footprint" "SOT-363" (id 2) (at 5.08 -1.905 0)
-        (effects (font (size 1.27 1.27) italic) (justify left))
-      )
-      (property "Datasheet" "" (id 3) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) (justify left))
-      )
-      (property "ki_fp_filters" "SuperSOT6" (id 4) (at 0 0 0)
-        (effects (font (size 1.27 1.27)) hide)
-      )
-      (symbol "21mtc-rescue_FDC6303N-mosfet_smd_0_1"
-        (polyline
-          (pts
-            (xy 0.635 -1.016)
-            (xy 0.635 -1.651)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 0.381)
-            (xy 0.635 -0.381)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.635 1.651)
-            (xy 0.635 1.016)
-          )
-          (stroke (width 0.508) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.048 0.381)
-            (xy 3.556 0.381)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0 1.524)
-            (xy 0 -1.524)
-            (xy 0 -1.524)
-          )
-          (stroke (width 0.254) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 -1.27)
-            (xy 2.54 -1.27)
-            (xy 2.54 -2.54)
-            (xy 2.54 -2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.762 1.27)
-            (xy 2.54 1.27)
-            (xy 2.54 2.54)
-            (xy 2.54 2.54)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 2.54 1.27)
-            (xy 3.302 1.27)
-            (xy 3.302 -1.27)
-            (xy 2.54 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 3.302 0.381)
-            (xy 3.048 -0.254)
-            (xy 3.556 -0.254)
-            (xy 3.302 0.381)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-        (polyline
-          (pts
-            (xy 0.762 0)
-            (xy 1.27 0)
-            (xy 2.54 0)
-            (xy 2.54 -1.27)
-            (xy 2.54 -1.27)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (polyline
-          (pts
-            (xy 0.889 0)
-            (xy 1.905 0.381)
-            (xy 1.905 -0.381)
-            (xy 0.889 0)
-            (xy 1.016 0)
-            (xy 1.016 0)
-          )
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type outline))
-        )
-        (circle (center 2.54 -1.27) (radius 0.127)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-        (circle (center 2.54 1.27) (radius 0.127)
-          (stroke (width 0) (type default) (color 0 0 0 0))
-          (fill (type none))
-        )
-      )
-      (symbol "21mtc-rescue_FDC6303N-mosfet_smd_1_1"
-        (pin input line (at -5.08 -1.27 0) (length 5.08)
-          (name "G" (effects (font (size 1.27 1.27))))
-          (number "1" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "5" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "6" (effects (font (size 1.27 1.27))))
-        )
-      )
-      (symbol "21mtc-rescue_FDC6303N-mosfet_smd_2_1"
-        (pin passive line (at 2.54 -5.08 90) (length 2.54)
-          (name "S" (effects (font (size 1.27 1.27))))
-          (number "2" (effects (font (size 1.27 1.27))))
-        )
-        (pin input line (at -5.08 -1.27 0) (length 5.08)
-          (name "G" (effects (font (size 1.27 1.27))))
-          (number "3" (effects (font (size 1.27 1.27))))
-        )
-        (pin passive line (at 2.54 5.08 270) (length 2.54)
-          (name "D" (effects (font (size 1.27 1.27))))
-          (number "4" (effects (font (size 1.27 1.27))))
-        )
-      )
-    )
     (symbol "Connector_Generic:Conn_01x01" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (id 0) (at 0 2.54 0)
         (effects (font (size 1.27 1.27)))
@@ -807,6 +648,168 @@
         (pin passive line (at 3.81 0 180) (length 2.54)
           (name "A" (effects (font (size 1.27 1.27))))
           (number "2" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
+    (symbol "pyth:US6K1" (pin_names (offset 0)) (in_bom yes) (on_board yes)
+      (property "Reference" "Q" (id 0) (at 5.08 1.905 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Value" "US6K1" (id 1) (at 5.08 0 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "Footprint" "SOT-363" (id 2) (at 5.08 -1.905 0)
+        (effects (font (size 1.27 1.27) italic) (justify left))
+      )
+      (property "Datasheet" "" (id 3) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) (justify left))
+      )
+      (property "ki_description" "Nch + Nch 30V Small Signal MOSFET" (id 4) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "SuperSOT6" (id 5) (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "US6K1_0_1"
+        (polyline
+          (pts
+            (xy 0.635 -1.016)
+            (xy 0.635 -1.651)
+          )
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 0.381)
+            (xy 0.635 -0.381)
+          )
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.635 1.651)
+            (xy 0.635 1.016)
+          )
+          (stroke (width 0.508) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.048 0.381)
+            (xy 3.556 0.381)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0 1.524)
+            (xy 0 -1.524)
+            (xy 0 -1.524)
+          )
+          (stroke (width 0.254) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 -1.27)
+            (xy 2.54 -1.27)
+            (xy 2.54 -2.54)
+            (xy 2.54 -2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.762 1.27)
+            (xy 2.54 1.27)
+            (xy 2.54 2.54)
+            (xy 2.54 2.54)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 2.54 1.27)
+            (xy 3.302 1.27)
+            (xy 3.302 -1.27)
+            (xy 2.54 -1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 3.302 0.381)
+            (xy 3.048 -0.254)
+            (xy 3.556 -0.254)
+            (xy 3.302 0.381)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (polyline
+          (pts
+            (xy 0.762 0)
+            (xy 1.27 0)
+            (xy 2.54 0)
+            (xy 2.54 -1.27)
+            (xy 2.54 -1.27)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 0.889 0)
+            (xy 1.905 0.381)
+            (xy 1.905 -0.381)
+            (xy 0.889 0)
+            (xy 1.016 0)
+            (xy 1.016 0)
+          )
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type outline))
+        )
+        (circle (center 2.54 -1.27) (radius 0.127)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+        (circle (center 2.54 1.27) (radius 0.127)
+          (stroke (width 0) (type default) (color 0 0 0 0))
+          (fill (type none))
+        )
+      )
+      (symbol "US6K1_1_1"
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -5.08 -1.27 0) (length 5.08)
+          (name "G" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+      )
+      (symbol "US6K1_2_1"
+        (pin passive line (at 2.54 5.08 270) (length 2.54)
+          (name "D" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 2.54 -5.08 90) (length 2.54)
+          (name "S" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin input line (at -5.08 -1.27 0) (length 5.08)
+          (name "G" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
         )
       )
     )
@@ -2654,7 +2657,7 @@
     (property "Reference" "#PWR0102" (id 0) (at 60.96 25.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VPP" (id 1) (at 60.96 17.9855 0))
+    (property "Value" "VPP" (id 1) (at 60.96 17.78 0))
     (property "Footprint" "" (id 2) (at 60.96 21.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3118,25 +3121,25 @@
     (pin "1" (uuid ceaa406c-8eff-44d3-9b05-2bde6c523df3))
   )
 
-  (symbol (lib_id "21mtc-cache:21mtc-rescue_FDC6303N-mosfet_smd") (at 231.14 88.9 0) (unit 2)
+  (symbol (lib_id "pyth:US6K1") (at 231.14 88.9 0) (unit 2)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 6d1422e6-a926-42c1-a3b3-5a277883ea30)
     (property "Reference" "Q1" (id 0) (at 235.331 86.6039 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "21mtc-rescue_FDC6303N-mosfet_smd" (id 1) (at 235.331 89.379 0)
+    (property "Value" "US6K1" (id 1) (at 235.331 89.379 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" (id 2) (at 235.331 92.1541 0)
-      (effects (font (size 1.27 1.27) italic) (justify left) hide)
+    (property "Footprint" "SOT-363" (id 2) (at 236.22 90.805 0)
+      (effects (font (size 1.27 1.27) italic) (justify left))
     )
     (property "Datasheet" "" (id 3) (at 231.14 88.9 0)
-      (effects (font (size 1.27 1.27)) (justify left) hide)
+      (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "MFN" "FDC6303N" (id 4) (at 231.14 88.9 0)
+    (property "MFN" "US6K1" (id 4) (at 231.14 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "MFP" "Onsemi" (id 5) (at 231.14 88.9 0)
+    (property "MFP" "ROHM" (id 5) (at 231.14 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "MFN2" "Onsemi" (id 12) (at 231.14 88.9 0)
@@ -3148,12 +3151,12 @@
     (property "Field14" "" (id 14) (at 231.14 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "LCSC2" "C83571" (id 15) (at 231.14 88.9 0)
+    (property "LCSC2" "C703686" (id 15) (at 231.14 88.9 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "2" (uuid 31860b5f-de73-42c8-8e05-6fee815efa78))
     (pin "3" (uuid 40893a5a-a0c0-4e40-add6-e2d7fd19b562))
     (pin "4" (uuid cbc4f504-99b1-404f-8b3a-f0881c4b1ae5))
+    (pin "5" (uuid dff85af1-92b6-46ed-8823-72e88949d1a7))
   )
 
   (symbol (lib_id "Device:R") (at 48.26 161.29 0) (unit 1)
@@ -3219,7 +3222,7 @@
     (property "Reference" "#PWR0104" (id 0) (at 33.02 96.52 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VPP" (id 1) (at 33.02 89.1055 0))
+    (property "Value" "VPP" (id 1) (at 33.02 88.9 0))
     (property "Footprint" "" (id 2) (at 33.02 92.71 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3310,7 +3313,7 @@
     (property "Reference" "#PWR0101" (id 0) (at 160.02 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VPP" (id 1) (at 160.02 101.8055 0))
+    (property "Value" "VPP" (id 1) (at 160.02 101.6 0))
     (property "Footprint" "" (id 2) (at 160.02 105.41 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3383,7 +3386,7 @@
     (property "Reference" "#PWR0103" (id 0) (at 44.45 152.4 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VPP" (id 1) (at 44.45 144.9855 0))
+    (property "Value" "VPP" (id 1) (at 44.45 144.78 0))
     (property "Footprint" "" (id 2) (at 44.45 148.59 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3567,7 +3570,7 @@
     (property "Reference" "#PWR0106" (id 0) (at 17.78 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VPP" (id 1) (at 17.78 20.5255 0))
+    (property "Value" "VPP" (id 1) (at 17.78 20.32 0))
     (property "Footprint" "" (id 2) (at 17.78 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -3717,23 +3720,23 @@
     (pin "1" (uuid 710104d3-2af2-4826-ac78-b1af2601e70d))
   )
 
-  (symbol (lib_id "21mtc-cache:21mtc-rescue_FDC6303N-mosfet_smd") (at 215.9 101.6 0) (unit 1)
+  (symbol (lib_id "pyth:US6K1") (at 215.9 101.6 0) (unit 1)
     (in_bom yes) (on_board yes) (fields_autoplaced)
     (uuid 9a6a1876-1d52-4f26-8e1b-00aa89b4c157)
     (property "Reference" "Q1" (id 0) (at 220.091 99.3039 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Value" "21mtc-rescue_FDC6303N-mosfet_smd" (id 1) (at 220.091 102.079 0)
+    (property "Value" "US6K1" (id 1) (at 220.091 102.079 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering" (id 2) (at 220.091 104.8541 0)
+    (property "Footprint" "SOT-363" (id 2) (at 220.98 103.505 0)
       (effects (font (size 1.27 1.27) italic) (justify left))
     )
     (property "Datasheet" "" (id 3) (at 215.9 101.6 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
     (pin "1" (uuid 512b267b-e850-4252-9e43-017277299add))
-    (pin "5" (uuid ee9876f3-29cb-4017-957d-62759d8b324c))
+    (pin "2" (uuid ff547164-95a2-4a5c-9b11-949040a82820))
     (pin "6" (uuid 2bdab8f3-fd9b-4c51-a762-669761c7b8c6))
   )
 
@@ -3761,7 +3764,7 @@
     (property "Reference" "#PWR0105" (id 0) (at 30.48 27.94 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Value" "VPP" (id 1) (at 30.48 20.5255 0))
+    (property "Value" "VPP" (id 1) (at 30.48 20.32 0))
     (property "Footprint" "" (id 2) (at 30.48 24.13 0)
       (effects (font (size 1.27 1.27)) hide)
     )
@@ -4280,6 +4283,10 @@
     (property "Sheet file" "powerpack.kicad_sch" (id 1) (at 109.22 188.0366 0)
       (effects (font (size 0 0)) (justify left top))
     )
+    (pin "Powerpack enable" input (at 109.22 173.355 180)
+      (effects (font (size 1.27 1.27)) (justify left))
+      (uuid 2d58d862-1065-4c18-96d3-4c95a8f3d840)
+    )
   )
 
   (sheet_instances
@@ -4312,74 +4319,74 @@
     (path "/91a717eb-1684-4f9e-8f37-41e79d760ccc"
       (reference "#PWR0106") (unit 1) (value "VPP") (footprint "")
     )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/08001d8e-6486-4585-9c58-e3a45dcc5783"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/09a59ede-fc6c-4799-bf43-65076aebe595"
-      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/1056dddd-bd10-42f5-ac6d-f736eb9dfeb5"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/1683d2a0-e2a4-40d6-bf49-8a4616471f9f"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/1f783e1b-8141-4726-92ac-fc26fdcfa76a"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/37adc2eb-0d5f-41c3-83cb-f5396596d32b"
-      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/3a0b55bb-3e7d-4bdf-b3a9-4b43d04ae9d0"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/4ca00045-5d5f-4bba-bf6c-b1d9a1e073f4"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/4f364622-9d70-4c4a-b261-b8fc907c2bd6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/501e1496-be22-4cee-8b4c-cbf8c46e7943"
-      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/577556e7-f4c5-4049-9868-ee657297c8c4"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/6303e847-245c-413e-b5de-5e1659eee377"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/6b5face2-799c-4f45-971a-07ec27b428bd"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/73008625-bc0a-4423-8e7a-7f2ae49ec4c6"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/843ee4b7-6e39-45d0-a31c-dafa277a891c"
-      (reference "#PWR?") (unit 1) (value "VCC") (footprint "")
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/dcddc29b-7bd8-49f4-9bbc-2f7a9bae95eb"
+      (reference "#PWR0107") (unit 1) (value "GND") (footprint "")
     )
     (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/948750de-ab23-452e-80db-25a10dc10130"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/9d0b8179-d0da-4bfb-9b0b-05884f67af11"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/bd9bc5a8-9e60-4fac-a0e7-0d7bd4e96e01"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/be72698c-0610-4ce2-b660-1365902709d7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0108") (unit 1) (value "GND") (footprint "")
     )
     (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/bf5be258-6dad-4637-86d2-7c5bca9ad3cd"
-      (reference "#PWR?") (unit 1) (value "VCOM") (footprint "")
+      (reference "#PWR0109") (unit 1) (value "VCOM") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/1683d2a0-e2a4-40d6-bf49-8a4616471f9f"
+      (reference "#PWR0110") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/1056dddd-bd10-42f5-ac6d-f736eb9dfeb5"
+      (reference "#PWR0111") (unit 1) (value "VPP") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/09a59ede-fc6c-4799-bf43-65076aebe595"
+      (reference "#PWR0112") (unit 1) (value "VCOM") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/be72698c-0610-4ce2-b660-1365902709d7"
+      (reference "#PWR0113") (unit 1) (value "GND") (footprint "")
     )
     (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/cc9d01e5-4db9-4a33-bffe-5b70eecdb775"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0114") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/6303e847-245c-413e-b5de-5e1659eee377"
+      (reference "#PWR0115") (unit 1) (value "VPP") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/4ca00045-5d5f-4bba-bf6c-b1d9a1e073f4"
+      (reference "#PWR0116") (unit 1) (value "VPP") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/6b5face2-799c-4f45-971a-07ec27b428bd"
+      (reference "#PWR0117") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/4f364622-9d70-4c4a-b261-b8fc907c2bd6"
+      (reference "#PWR0118") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/501e1496-be22-4cee-8b4c-cbf8c46e7943"
+      (reference "#PWR0119") (unit 1) (value "VCOM") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/37adc2eb-0d5f-41c3-83cb-f5396596d32b"
+      (reference "#PWR0120") (unit 1) (value "VCOM") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/1f783e1b-8141-4726-92ac-fc26fdcfa76a"
+      (reference "#PWR0121") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/3a0b55bb-3e7d-4bdf-b3a9-4b43d04ae9d0"
+      (reference "#PWR0122") (unit 1) (value "VPP") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/bd9bc5a8-9e60-4fac-a0e7-0d7bd4e96e01"
+      (reference "#PWR0123") (unit 1) (value "GND") (footprint "")
     )
     (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/d92badc5-a9d3-4d80-a2f2-64dc9025fba7"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+      (reference "#PWR0124") (unit 1) (value "GND") (footprint "")
     )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/dcddc29b-7bd8-49f4-9bbc-2f7a9bae95eb"
-      (reference "#PWR?") (unit 1) (value "GND") (footprint "")
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/843ee4b7-6e39-45d0-a31c-dafa277a891c"
+      (reference "#PWR0125") (unit 1) (value "VPP") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/577556e7-f4c5-4049-9868-ee657297c8c4"
+      (reference "#PWR0126") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/9d0b8179-d0da-4bfb-9b0b-05884f67af11"
+      (reference "#PWR0127") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/08001d8e-6486-4585-9c58-e3a45dcc5783"
+      (reference "#PWR0128") (unit 1) (value "GND") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/73008625-bc0a-4423-8e7a-7f2ae49ec4c6"
+      (reference "#PWR0129") (unit 1) (value "GND") (footprint "")
     )
     (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/d33c5df5-b20b-4d7e-94bb-ebafd74441c3"
       (reference "C1") (unit 1) (value "10uF/25V") (footprint "")
@@ -4594,6 +4601,12 @@
     (path "/48c4dc2d-78b0-4541-8634-7478a0fe7253"
       (reference "J1") (unit 1) (value "Conn_01x02") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/6216fb41-70aa-430d-abea-a105e5b31634"
+      (reference "J1") (unit 1) (value "Conn_01x02") (footprint "")
+    )
+    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/4a642b9a-9a7c-496c-8fc4-cee033b13d93"
+      (reference "J2") (unit 1) (value "Conn_01x02") (footprint "")
+    )
     (path "/88062a8e-58e5-4a8f-9ad0-de7c670e3723"
       (reference "J2") (unit 1) (value "Conn_02x11_Counter_Clockwise") (footprint "Connector_PinHeader_1.27mm:PinHeader_2x11_P1.27mm_Vertical_SMD")
     )
@@ -4636,12 +4649,6 @@
     (path "/8e4bf4e4-1c63-464e-afdb-a3f734a42062"
       (reference "J15") (unit 1) (value "Conn_01x04") (footprint "TestPoint:TestPoint_Pad_1.0x1.0mm")
     )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/4a642b9a-9a7c-496c-8fc4-cee033b13d93"
-      (reference "J?") (unit 1) (value "Conn_01x02") (footprint "")
-    )
-    (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/6216fb41-70aa-430d-abea-a105e5b31634"
-      (reference "J?") (unit 1) (value "Conn_01x02") (footprint "")
-    )
     (path "/0bedad37-3e3c-4266-b4c1-07c7e3d0463e/b21c3a02-4bdb-4e95-9503-163dfeed25f4"
       (reference "L1") (unit 1) (value "10uH") (footprint "")
     )
@@ -4649,10 +4656,10 @@
       (reference "L2") (unit 1) (value "22uH") (footprint "")
     )
     (path "/9a6a1876-1d52-4f26-8e1b-00aa89b4c157"
-      (reference "Q1") (unit 1) (value "21mtc-rescue_FDC6303N-mosfet_smd") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering")
+      (reference "Q1") (unit 1) (value "US6K1") (footprint "SOT-363")
     )
     (path "/6d1422e6-a926-42c1-a3b3-5a277883ea30"
-      (reference "Q1") (unit 2) (value "21mtc-rescue_FDC6303N-mosfet_smd") (footprint "Package_TO_SOT_SMD:SOT-363_SC-70-6_Handsoldering")
+      (reference "Q1") (unit 2) (value "US6K1") (footprint "SOT-363")
     )
     (path "/94ef279c-6f2c-4fdb-9416-84819bf59198"
       (reference "R1") (unit 1) (value "R") (footprint "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder")
